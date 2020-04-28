@@ -1,0 +1,135 @@
+{
+  "strict": {
+    "text-font-family": "lato-light",
+    "title-font-family": "liberation-sans-regular"
+  },
+  "components": {
+    "Card": {
+      "meta": {
+        "variantGroups": {
+          "size": {
+            "large": {
+              "default": true
+            },
+            "tiny": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "outline": {
+          "mapping": {
+            "titleFontFamily": "title-font-family"
+          },
+          "variantGroups": {
+            "size": {
+              "large": {},
+              "tiny": {
+                "headerPaddingHorizontal": 12,
+                "headerPaddingVertical": 8,
+                "bodyPaddingHorizontal": 12,
+                "bodyPaddingVertical": 8,
+                "footerPaddingHorizontal": 12,
+                "footerPaddingVertical": 8
+              }
+            }
+          }
+        },
+        "filled": {
+          "mapping": {},
+          "variantGroups": {
+            "size": {
+              "large": {},
+              "tiny": {
+                "headerPaddingHorizontal": 12,
+                "headerPaddingVertical": 8,
+                "bodyPaddingHorizontal": 12,
+                "bodyPaddingVertical": 8,
+                "footerPaddingHorizontal": 12,
+                "footerPaddingVertical": 8
+              }
+            }
+          }
+        }
+      }
+    },
+    "Calendar": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "titleFontFamily": "title-font-family"
+          }
+        }
+      }
+    },
+    "Divider": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "backgroundColor": "color-basic-disabled-border"
+          }
+        }
+      }
+    },
+    "ListItem": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "titleFontFamily": "title-font-family"
+          }
+        }
+      }
+    },
+    "MenuItem": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "titleFontFamily": "title-font-family"
+          }
+        }
+      }
+    },
+    "Text": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "fontFamily": "text-font-family",
+            "color": "text-basic-color"
+          },
+          "variantGroups": {
+            "category": {
+              "h1": {
+                "fontFamily": "title-font-family"
+              },
+              "h2": {
+                "fontFamily": "title-font-family"
+              },
+              "h3": {
+                "fontFamily": "title-font-family"
+              },
+              "h4": {
+                "fontFamily": "title-font-family"
+              },
+              "h5": {
+                "fontFamily": "title-font-family"
+              },
+              "h6": {
+                "fontFamily": "title-font-family"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TopNavigation": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "titleFontFamily": "liberation-sans-regular"
+          }
+        }
+      }
+    }
+  }
+}
